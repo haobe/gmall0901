@@ -2,8 +2,10 @@ package com.atguigu.gmall.manage.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.atguigu.gmall.bean.BaseSaleAttr;
+import com.atguigu.gmall.bean.SpuImage;
 import com.atguigu.gmall.bean.SpuInfo;
-import com.atguigu.gmall.service.ManageService;
+import com.atguigu.gmall.bean.SpuSaleAttr;
+import com.atguigu.gmall.order.service.ManageService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -45,6 +47,27 @@ public class SpuManageController {
         manageService.saveSpuInfo(spuInfo);
         return "OK";
     }
+
+    @RequestMapping("spuImageList")
+    @ResponseBody
+    public List<SpuImage> spuImageList(String spuId){
+        List<SpuImage> spuImageList = manageService.getSpuImageList(spuId);
+        return spuImageList;
+
+    }
+
+    @RequestMapping("spuSaleAttrList")
+    @ResponseBody
+    public List<SpuSaleAttr> spuSaleAttrList(String spuId){
+
+        List<SpuSaleAttr> spuSaleAttrList = manageService.getSpuSaleAttrList(spuId);
+        return spuSaleAttrList;
+    }
+
+
+
+
+
 
 
 }

@@ -16,8 +16,7 @@
         <br/><br/>
         <label>spu描述:</label>
         <input  id="description" name="description" class="easyui-textbox" data-options="multiline:true" style="width:500px;height:100px"/>
-
-        <!--商品id  隐藏域  当需要在页面隐藏传递某些特殊数据的时候  不需要用户看到  则使用隐藏域-->
+        <!--商品Id ，隐藏域 当需要在页面隐藏传递某些特殊数据的时候，不需要用户看到，则使用隐藏域-->
         <input id="spuId" name="spuId" type="hidden"/>
         <br/><br/>
 
@@ -34,7 +33,6 @@
                 <a href="#" class="easyui-linkbutton" iconCls="icon-remove" plain="true">删除</a>
             </div>
         </div>
-
         <br/><br/>
         <!----------------销售属性列表---------------------------->
         <table id="spuSaleAttrDg" class="easyui-datagrid" title="销售属性列表"
@@ -48,8 +46,7 @@
                 <a href="#" class="easyui-linkbutton" iconCls="icon-remove" plain="true" >删除</a>
             </div>
         </div>
-
-        <!--引入销售值页面-->
+        <!--引入销售属性值页面-->
         <div th:include="spuSaleAttrPage"></div>
 
     </form>
@@ -63,82 +60,80 @@
 </body>
 <script type="text/javascript">
     function saveSpu() {
+        var spuInfo={};
+//        插入的数据表结构
+//        spuInfo:
+//        spuImage:
+//        spuSaleAttr:
+//        spuSaleAttrValue:
+//        SpuInfo 实体类对应的字段
+//        private String id;
+//        private String spuName;
+//        private String description;
+//        private  String catalog3Id;
 
-        var spuInfo = {};
-//     插入的数据表结构
-//     spuInfo
-//     spuImage
-//     spusaleattr
-//     spusaleattrvalue
-//     spuInfo实体类对应的字段
-//     private String id;
-//     private String spuName;
-//     private String description;
-//     private  String catalog3Id;
-//     private List<SpuSaleAttr> spuSaleAttrList;
-//     private List<SpuImage> spuImageList;
-        spuInfo['id'] = $("#spuId").val();
-        spuInfo['spuName'] = $("#spuName").val();
-        spuInfo['description'] = $("#description").val();
-        spuInfo['catalog3Id'] = $("#ctg3ForSpuList").combobox('getValue');
-
-//     往表中添加图片数据 spuImageList
-//      先获取到图片的集合数据
+        spuInfo["id"]=$("#spuId").val();
+        spuInfo["spuName"]=$("#spuName").val();
+        spuInfo["description"]=$("#description").val();
+        spuInfo["catalog3Id"]=$("#ctg3ForSpuList").combobox('getValue');
+//        private List<SpuImage> spuImageList;
+//        图片添加 先获取到图片的集合数据
         var spuImgDgRows  = $("#spuImgDg").datagrid('getRows');
-        //循环遍历
+        // 循环遍历
         for (var i = 0; i < spuImgDgRows.length; i++) {
-//            private String id;  主键自增  不用管
-//            private String spuId;     spuInfo.id
+//            spuImage
+//            private String id; 主键自增
+//            private String spuId;  spuInfo.id
 //            private String imgName;
 //            private String imgUrl;
-            spuInfo['spuImageList['+ i +'].imgName'] = spuImgDgRows[i].imgName;
-            spuInfo['spuImageList['+ i +'].imgUrl'] = spuImgDgRows[i].imgUrl;
+            spuInfo["spuImageList["+ i +"].imgName"]=spuImgDgRows[i].imgName;
+            spuInfo["spuImageList["+ i +"].imgUrl"]=spuImgDgRows[i].imgUrl;
         }
-
-        //往表中添加销售属性 spuSaleAttrList
-        //获取所有行数
+//        private List<SpuSaleAttr> spuSaleAttrList;
+        // 销售属性
+//        String id ;
+//        String spuId;
+//        String saleAttrId;
+//        String saleAttrName;
+//        List<SpuSaleAttrValue> spuSaleAttrValueList;
+        // 获取所有行数
         var spuSaleAttrDgRows   = $("#spuSaleAttrDg").datagrid('getRows');
+        // 循环遍历
         for (var i = 0; i < spuSaleAttrDgRows.length; i++) {
-//          String id ;   主键自增
-//          String spuId;  spuInfo.id
-//          String saleAttrId;
-//          String saleAttrName;
-//          List<SpuSaleAttrValue> spuSaleAttrValueList;
-//          Map spuSaleAttrValueJson;
-            spuInfo['spuSaleAttrList['+ i +'].saleAttrId'] = spuSaleAttrDgRows[i].saleAttrId;
-            spuInfo['spuSaleAttrList['+ i +'].saleAttrName'] = spuSaleAttrDgRows[i].saleAttrName;
-            //获取销售属性值的集合{得到销售属性暂存值得数据}
+            spuInfo["spuSaleAttrList["+ i +"].saleAttrId"]=spuSaleAttrDgRows[i].saleAttrId;
+            spuInfo["spuSaleAttrList["+ i +"].saleAttrName"]=spuSaleAttrDgRows[i].saleAttrName;
+            // 获取销售属性值的集合 {得到销售属性暂存值的数据}
             var saleAttrValueRows  = spuSaleAttrDgRows[i].spuSaleAttrValueJson.rows;
+
+            // 循环遍历取出数据
             for (var j = 0; j < saleAttrValueRows.length; j++) {
-//                String id ;
+//                String id;
 //                String spuId;
 //                String saleAttrId;
 //                String saleAttrValueName;
-                spuInfo['spuSaleAttrList['+ i +'].spuSaleAttrValueList['+ j +'].saleAttrId'] = spuSaleAttrDgRows[i].saleAttrId;
-                spuInfo['spuSaleAttrList['+ i +'].spuSaleAttrValueList['+ j +'].saleAttrValueName'] = saleAttrValueRows[j].saleAttrValueName;
+                spuInfo["spuSaleAttrList["+i+"].spuSaleAttrValueList["+j+"].saleAttrId"]=spuSaleAttrDgRows[i].saleAttrId;
+                spuInfo["spuSaleAttrList["+i+"].spuSaleAttrValueList["+j+"].saleAttrValueName"]=saleAttrValueRows[j].saleAttrValueName;
             }
+
         }
-
         console.log(JSON.stringify(spuInfo));
-        //保存spuInfo
+        // 保存spuInfo
         $.post("saveSpuInfo",spuInfo,function () {
-            //关闭模态框
+            // 关闭模态框
             $("#spu_dlg").dialog('close');
-            //加载数据
+            // 加载数据
             $("#spulist_dg").datagrid('reload');
-
         })
 
 
-
     }
 
-
-    //添加销售属性
+    // 添加销售属性：
     function addSpuSaleAttr() {
+        // 初始化方法
         initSpuSaleAttrDlg();
     }
-    //初始化模态框
+    // 初始化模态框
     function initSpuInfoDlg(spuInfo) {
         $("#spu_dlg").dialog('open');
 
@@ -166,10 +161,7 @@
                 { field:'spuSaleAttrValueJson',title:'销售属性值暂存', width:'50%'}
             ]]
         });
-
-
     }
-
     function initUploader(){
 
         console.log("初始化上传控件");
@@ -180,7 +172,7 @@
             auto:false,
             // swf文件路径
             swf: '/webuploader/Uploader.swf',
-            // 文件接收路径 控制器
+            // 文件接收路径 - 控制器
             server: '/fileUpload',
             // 选择文件的按钮。
             pick: '#spuImgAdd',
@@ -188,7 +180,7 @@
             resize: false,
             //设定文件大小上限 2M
             fileSingleSizeLimit:2*1024*1024,
-            //可接受的文件类型
+            // 可接受的文件类型
             accept: {
                 title: 'Images',
                 extensions: 'gif,jpg,jpeg,bmp,png',
@@ -198,7 +190,7 @@
         console.log("初始化文件上传控件的响应--fileQueued");
 
 
-        //当用户选择了文件以后，表格要进行增行
+        //当用户选择了文件以后，表格要进行增行  file是什么呢？ 要上传的文件对象
         spuImgUploader.on('fileQueued',function (file) {
             console.log("用户增加文件:"+file.id+'||'+file.name);
             var row={
@@ -213,7 +205,7 @@
         spuImgUploader.on( 'uploadProgress', function( file, percentage ) {
 
             var rowIndex=spuImgDg.datagrid('getRowIndex',file.id);
-
+            // 截取两位小数
             var progessRow={progress:(percentage*100).toFixed(2)};
 
             spuImgDg.datagrid('updateRow', {index:rowIndex,row:progessRow});
@@ -243,11 +235,13 @@
         });
 
     }
+
     function initSpuForm(spuInfo){
         //清空文本框
         $("#spuForm").form("clear");
 
     }
+
     function initSpuImgListDatagrid(spuInfo) {
         $('#spuImgDg').datagrid('loadData', {total: 0, rows: []});
         console.log("初始化表格");
@@ -300,15 +294,17 @@
                     spuImgDg.datagrid('endEdit', rowIndex);
                 });
             },
+            /*datagrid-detailview.js*/
             view: detailview,
             detailFormatter: function (rowIndex, rowData) {
                 return "<img src=" + rowData.imgUrl + " style='width:100px;height:100px;'>";
             }
         });
-
     }
-    
-</script>
 
+
+
+
+</script>
 
 </html>

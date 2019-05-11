@@ -61,9 +61,9 @@
 
 <div th:include="spuInfoPage"></div>
 
-<!--<div th:include="skuInfoPage"></div>
+<div th:include="skuInfoPage"></div>
 
-<div th:include="skuListPage"></div>-->
+<!--<div th:include="skuListPage"></div>-->
 
 
 
@@ -72,6 +72,16 @@
     //添加spuInfo页面
     function addSpuInfo(){
         initSpuInfoDlg();  //在spuInfoPage.html中
+    }
+    
+    function addSkuInfo() {
+        //获取选中行得到对象
+        var spuRow  = $("#spulist_dg").datagrid('getSelected');
+        //获取三级分类Id
+        var ctg3val = $("#ctg3ForSpuList").combobox('getValue');
+        //spuRow.id 表示spuId   '':表示空数据   ctg3val:三级分类Id
+        initSkuInfoDlg(spuRow.id,'',ctg3val);//在skuInfoPage.html中
+
     }
 
 </script>

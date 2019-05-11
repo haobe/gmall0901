@@ -2,7 +2,7 @@ package com.atguigu.gmall.manage.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.atguigu.gmall.bean.*;
-import com.atguigu.gmall.service.ManageService;
+import com.atguigu.gmall.order.service.ManageService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -60,7 +60,8 @@ public class ManageController {
     @RequestMapping("attrInfoList")
     @ResponseBody
     public List<BaseAttrInfo> getAttrList(String catalog3Id){
-        return manageService.getAttrList(catalog3Id);
+        List<BaseAttrInfo> baseAttrInfoList = manageService.getAttrList(catalog3Id);
+        return baseAttrInfoList;
 
     }
 

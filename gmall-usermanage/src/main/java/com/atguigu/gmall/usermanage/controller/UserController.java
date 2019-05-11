@@ -1,7 +1,7 @@
 package com.atguigu.gmall.usermanage.controller;
 
 import com.atguigu.gmall.bean.UserInfo;
-import com.atguigu.gmall.service.UserService;
+import com.atguigu.gmall.order.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

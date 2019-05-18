@@ -1,0 +1,14 @@
+
+_squid:S00112æ"FDefine and throw a dedicated exception instead of using a generic one.(«Âã³
+qsquid:S001163"TRename this field "ORDER_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ŒÍÂúÿÿÿÿ
+3squid:S3626Æ"Remove this redundant jump.(ûÁİ…
+Csquid:S1168ë"+Return an empty collection instead of null.(¥¹ï
+{squid:S1488Š"cImmediately return this expression instead of assigning it to the temporary variable "wareSkuList".(¶¸ªù
+ysquid:S14886"]Immediately return this expression instead of assigning it to the temporary variable "stock".(’¸Èåøÿÿÿÿ
+}squid:S1488G"aImmediately return this expression instead of assigning it to the temporary variable "wareInfos".(ÊÃ÷òûÿÿÿÿ
+@squid:S1148Ä"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Xsquid:S1126?"AReplace this if-then-else statement by a single return statement.(®–ú
+@squid:S1148´"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+esquid:S1192À"HDefine a constant instead of duplicating this literal "orderId" 4 times.(º¾Â¿úÿÿÿÿ
+4squid:S1643¨"Use a StringBuilder instead.(©ÇÄ«
+xsquid:S1488L"aImmediately return this expression instead of assigning it to the temporary variable "wareInfos".(ê¾£§

@@ -1,0 +1,8 @@
+
+Ysquid:S1126‘"AReplace this if-then-else statement by a single return statement.(ó¹–”
+gsquid:S1192_"KDefine a constant instead of duplicating this literal ":tradeCode" 3 times.(…úÓ™ûÿÿÿÿ
+bsquid:S1192_"FDefine a constant instead of duplicating this literal "user:" 3 times.(…úÓ™ûÿÿÿÿ
+isquid:S00117Í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ¨ò$
+Usquid:S1155H">Use isEmpty() to check whether the collection is empty or not.(½Ðø¾
+@squid:S1148à"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+]squid:S1126r"AReplace this if-then-else statement by a single return statement.(ÜÌ—¢ùÿÿÿÿ

@@ -1,0 +1,13 @@
+
+Ksquid:EmptyStatementUsageCheck\"Remove this empty statement.(”ëÿ¢üÿÿÿÿ
+Gsquid:S1066¿"/Merge this if statement with the enclosing one.(‹“ÅØ
+hsquid:CommentedOutCodeLine¡"<This block of commented-out lines of code should be removed.(Íê•ˆûÿÿÿÿ
+hsquid:CommentedOutCodeLinež"<This block of commented-out lines of code should be removed.(¶£Óùÿÿÿÿ
+Isquid:S1481"2Remove this unused "cartInfoLists" local variable.(„‰–[
+jsquid:S3776ž"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(þ¬µŠ
+Csquid:S1168”"+Return an empty collection instead of null.(¥¹ï
+@squid:S1604ƒ"(Make this anonymous inner class a lambda(òÿÜ¯
+Xsquid:S1854"ARemove this useless assignment to local variable "cartInfoLists".(„‰–[
+Zsquid:S1155|">Use isEmpty() to check whether the collection is empty or not.(µ± ¨úÿÿÿÿ
+[squid:S1155¤">Use isEmpty() to check whether the collection is empty or not.(ÿöÚýýÿÿÿÿ
+Vsquid:S1155“">Use isEmpty() to check whether the collection is empty or not.(ˆ²øæ

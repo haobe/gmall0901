@@ -1,0 +1,16 @@
+
+^squid:S2259Œ"FA "NullPointerException" could be thrown; "response" is nullable here.(Öªí“
+gsquid:CommentedOutCodeLinez"<This block of commented-out lines of code should be removed.(ðƒò¼üÿÿÿÿ
+hsquid:CommentedOutCodeLine„"<This block of commented-out lines of code should be removed.(¨Žþƒüÿÿÿÿ
+@squid:S1148Ã"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+^squid:S2184¸"FCast one of the operands of this multiplication operation to a "long".(×Úë´
+U
+squid:S106š"9Replace this use of System.out or System.err by a logger.(¸æØ÷ÿÿÿÿÿ
+isquid:S00117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü®ž
+osquid:S00117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š÷êÏÿÿÿÿÿ
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ï”îÏýÿÿÿÿ
+isquid:S00117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç¤Î
+zsquid:S14886"cImmediately return this expression instead of assigning it to the temporary variable "paymentInfo".(¼âþ÷
+?squid:S1148l"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+@squid:S1148‰"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ

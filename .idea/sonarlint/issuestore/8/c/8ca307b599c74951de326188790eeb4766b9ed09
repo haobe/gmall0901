@@ -1,0 +1,10 @@
+
+"squid:ClassVariableVisibilityCheck!"[Make USERKEY_TIMEOUT a static final constant or non-public and provide accessors if needed.(˜ˆ¡áıÿÿÿÿ
+usquid:S00116"]Rename this field "USERINFOKEY_SUFFIX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´œÿô
+Œ"squid:ClassVariableVisibilityCheck"^Make USERINFOKEY_SUFFIX a static final constant or non-public and provide accessors if needed.(´œÿô
+wsquid:S00116!"ZRename this field "USERKEY_TIMEOUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ˆ¡áıÿÿÿÿ
+|squid:S14880"eImmediately return this expression instead of assigning it to the temporary variable "userAddresses".(Ò‰Š­
+qsquid:S00116"YRename this field "USERKEY_PREFIX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Šâ
+Ssquid:S2589K"7Remove this expression which always evaluates to "true"(óÀ´Áÿÿÿÿÿ
+wsquid:S1488g"`Immediately return this expression instead of assigning it to the temporary variable "userInfo".(£™ìÿ
+ˆ"squid:ClassVariableVisibilityCheck"ZMake USERKEY_PREFIX a static final constant or non-public and provide accessors if needed.(˜Šâ

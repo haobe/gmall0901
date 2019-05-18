@@ -1,0 +1,30 @@
+
+bsquid:CommentedOutCodeLineX"<This block of commented-out lines of code should be removed.(Ã¼ˆ¹
+gsquid:CommentedOutCodeLine["<This block of commented-out lines of code should be removed.(š§²­øÿÿÿÿ
+csquid:CommentedOutCodeLineè"<This block of commented-out lines of code should be removed.(ÀÇ„§
+U
+squid:S106À"9Replace this use of System.out or System.err by a logger.(ˆÚý«ùÿÿÿÿ
+P
+squid:S106Æ"9Replace this use of System.out or System.err by a logger.(»ŒÙŽ
+U
+squid:S106Ñ"9Replace this use of System.out or System.err by a logger.(ð¸íÿúÿÿÿÿ
+U
+squid:S106Ù"9Replace this use of System.out or System.err by a logger.(ýÝá¥þÿÿÿÿ
+„squid:S1488J"hImmediately return this expression instead of assigning it to the temporary variable "baseCatalog2List".(§Á ‡ÿÿÿÿÿ
+„squid:S1488R"hImmediately return this expression instead of assigning it to the temporary variable "baseCatalog3List".(µÐúÅùÿÿÿÿ
+„squid:S1488\"hImmediately return this expression instead of assigning it to the temporary variable "baseAttrInfoList".(ˆ„Šöøÿÿÿÿ
+{squid:S1488ž"cImmediately return this expression instead of assigning it to the temporary variable "spuInfoList".(ðýÝ·
+…squid:S1488¤"hImmediately return this expression instead of assigning it to the temporary variable "baseSaleAttrList".(ŒÝìüÿÿÿÿ
+„squid:S1488í"gImmediately return this expression instead of assigning it to the temporary variable "spuSaleAttrList".(åº‚úýÿÿÿÿ
+squid:S1488þ"gImmediately return this expression instead of assigning it to the temporary variable "spuSaleAttrList".(ÃØè£
+‰squid:S1488‹"lImmediately return this expression instead of assigning it to the temporary variable "skuSaleAttrValueList".(Ó¼«âÿÿÿÿÿ
+€squid:S1488œ"hImmediately return this expression instead of assigning it to the temporary variable "baseAttrInfoList".( Èžº
+osquid:S3776©"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(þÖüÍýÿÿÿÿ
+@squid:S1148Þ"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Usquid:S1155|">Use isEmpty() to check whether the collection is empty or not.(¸Î™‚
+Vsquid:S1155»">Use isEmpty() to check whether the collection is empty or not.(ÿËñÍ
+[squid:S1155Î">Use isEmpty() to check whether the collection is empty or not.(´˜¹Ôúÿÿÿÿ
+[squid:S1155×">Use isEmpty() to check whether the collection is empty or not.(žÉŽ‘üÿÿÿÿ
+[squid:S1155„">Use isEmpty() to check whether the collection is empty or not.(þˆáþÿÿÿÿ
+[squid:S1155“">Use isEmpty() to check whether the collection is empty or not.(­êîÁøÿÿÿÿ
+Vsquid:S1155¢">Use isEmpty() to check whether the collection is empty or not.(ÊÆÞŒ

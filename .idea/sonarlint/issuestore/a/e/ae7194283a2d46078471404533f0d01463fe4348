@@ -1,0 +1,13 @@
+
+?squid:S1148o"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+rsquid:S1488r"[Immediately return this expression instead of assigning it to the temporary variable "map".(å£¨œ
+T
+squid:S106J"9Replace this use of System.out or System.err by a logger.(Ÿàğóüÿÿÿÿ
+T
+squid:S106L"9Replace this use of System.out or System.err by a logger.(Äì÷øÿÿÿÿ
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(®·Ä
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ø÷˜öıÿÿÿÿ
+O
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(—¯¾Æ
+Qsquid:S1161":Add the "@Override" annotation above this method signature(ä®Ò
+bsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(¯­‰Ù

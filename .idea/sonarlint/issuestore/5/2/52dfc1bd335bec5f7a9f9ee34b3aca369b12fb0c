@@ -1,0 +1,7 @@
+
+Usquid:S1155=">Use isEmpty() to check whether the collection is empty or not.(ß¿‰ê
+gsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(Ñ»ºõûÿÿÿÿ
+gsquid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+Usquid:S1155q">Use isEmpty() to check whether the collection is empty or not.(½Ðø¾
+fsquid:S4488a"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"( ÃüÏÿÿÿÿÿ
+gsquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(úó¾üþÿÿÿÿ

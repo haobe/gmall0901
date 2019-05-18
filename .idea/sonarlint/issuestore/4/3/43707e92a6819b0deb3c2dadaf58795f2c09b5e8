@@ -1,0 +1,35 @@
+
+rsquid:S00116"URename this field "alipay_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÇÕ‚ÿÿÿÿÿ
+Rsquid:S2696,"6Make the enclosing method "static" or remove this set.(·œËÆùÿÿÿÿ
+ksquid:S00100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜›šùÿÿÿÿ
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‘¬µ°
+ysquid:S3008"]Rename this field "notify_payment_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û‡‹ıüÿÿÿÿ
+ksquid:S001000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Ï…Æùÿÿÿÿ
+jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(‚ñ¿ò
+Tsquid:S1444"8Make this "public static notify_payment_url" field final(û‡‹ıüÿÿÿÿ
+nsquid:S001170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Ï…Æùÿÿÿÿ
+"squid:ClassVariableVisibilityCheck!"\Make return_order_url a static final constant or non-public and provide accessors if needed.(ºÏ„£ûÿÿÿÿ
+zsquid:S1488;"dImmediately return this expression instead of assigning it to the temporary variable "alipayClient".(Ê­¸M
+"squid:ClassVariableVisibilityCheck#"]Make alipay_public_key a static final constant or non-public and provide accessors if needed.(Ÿ‘ÒÌøÿÿÿÿ
+nsquid:S00117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜›šùÿÿÿÿ
+jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(‘¬µ°
+Tsquid:S1444"8Make this "public static return_payment_url" field final(·¯á€üÿÿÿÿ
+Msquid:S26961"6Make the enclosing method "static" or remove this set.(îÆ«
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚ñ¿ò
+Rsquid:S1444!"6Make this "public static return_order_url" field final(ºÏ„£ûÿÿÿÿ
+nsquid:S00117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦Ÿğıÿÿÿÿ
+ysquid:S3008"]Rename this field "return_payment_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·¯á€üÿÿÿÿ
+wsquid:S3008!"[Rename this field "return_order_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÏ„£ûÿÿÿÿ
+isquid:S001175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„±™Ã
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(«‡Ò“øÿÿÿÿ
+‘"squid:ClassVariableVisibilityCheck"^Make return_payment_url a static final constant or non-public and provide accessors if needed.(·¯á€üÿÿÿÿ
+wsquid:S00116"ZRename this field "app_private_key" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬©™ğÿÿÿÿÿ
+osquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(«‡Ò“øÿÿÿÿ
+‘"squid:ClassVariableVisibilityCheck"^Make notify_payment_url a static final constant or non-public and provide accessors if needed.(û‡‹ıüÿÿÿÿ
+nsquid:S00116"QRename this field "app_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ÊÁˆşÿÿÿÿ
+Ssquid:S1444#"7Make this "public static alipay_public_key" field final(Ÿ‘ÒÌøÿÿÿÿ
+ksquid:S00100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦Ÿğıÿÿÿÿ
+Rsquid:S26966"6Make the enclosing method "static" or remove this set.(©ˆ¬Æúÿÿÿÿ
+fsquid:S001005"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„±™Ã
+xsquid:S3008#"\Rename this field "alipay_public_key" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ‘ÒÌøÿÿÿÿ
+Rsquid:S2696'"6Make the enclosing method "static" or remove this set.(íäãıÿÿÿÿ

@@ -1,0 +1,11 @@
+
+2squid:S3626S"Remove this redundant jump.(ûÁÝ…
+2squid:S3626V"Remove this redundant jump.(ûÁÝ…
+hsquid:S2095"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(™ýÄ“
+hsquid:S20957"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(™ýÄ“
+dsquid:S2095F"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(§èÇ>
+gsquid:CommentedOutCodeLineB"<This block of commented-out lines of code should be removed.(ÚôöÖýÿÿÿÿ
+gsquid:CommentedOutCodeLineE"<This block of commented-out lines of code should be removed.(º³º¶ýÿÿÿÿ
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(…ÎÒÌ
+?squid:S1148,"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148R"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
